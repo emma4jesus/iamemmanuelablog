@@ -6,11 +6,11 @@ class Intro extends React.Component {
   render() {
     return (
       <div id="home" className="intro route bg-image ">
-        <div className="intro-content display-table">
-          <div className="table-cell">
-            <h1 className="intro-title mb-4">Weclome to my website</h1>
-            <p className="intro-subtitle">
-              <span className="text-slider-items"></span>
+      {/* //   <div className="intro-content display-table">
+      //     <div className="table-cell">
+      //       <div className="intro-title mb-4">
+      //       <p className="intro-subtitle">
+      //         <span className="text-slider-items"></span> */}
               {/* <strong className="text-slider">
                   <Typed
                     strings={["Log In or Sign Up"]}
@@ -20,10 +20,11 @@ class Intro extends React.Component {
                     loop
                   />
                 </strong> */}
-            </p>
+        {/* //     </p> */}
           </div>
-        </div>
-      </div>
+        // </div>
+        // </div>
+      // </div>
     );
   }
 }
